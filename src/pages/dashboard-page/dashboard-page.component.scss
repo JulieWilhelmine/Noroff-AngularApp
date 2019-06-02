@@ -1,0 +1,49 @@
+// Google fonts
+@import url("https://fonts.googleapis.com/css?family=Abel|Roboto+Slab&display=swap");
+
+// Variables
+$abel: 'Abel', sans-serif;
+$roboto-slab: 'Roboto Slab', serif;
+
+
+//Styles
+h1 { 
+    font-family: $roboto-slab;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+body { font-family: $abel; }
+
+.card{
+    width: 30%;
+    border: solid 2px rgb(161, 194, 204);
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    font-family: $abel;
+    font-size: 1.2em;
+
+    &__advice{
+        float: left;
+        clear: both;
+        margin-left: 10px;
+    }
+    &__nameday{
+        float: left;
+        clear: both;
+        margin-left: 10px;
+        margin-bottom: 200px;
+    }
+    &__pokemon{
+        float: left;
+        font-family: $abel;
+        font-size: 1.4em;
+        width: 20%;
+    }
+}
+
+.pokemon{
+    background-color: rgb(146, 211, 146);
+    padding: 30px; 
+}
